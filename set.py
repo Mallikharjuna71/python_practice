@@ -1,0 +1,17 @@
+s = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}
+s.add(1)
+print(s)
+s.remove(1)
+print(s)
+print(s.discard(1))
+s.update((11, 12, 13))
+print(s)
+s1 = {2, 3, 4}
+print(s.union(s1))
+print(s.intersection(s1))
+print(s.difference(s1))
+s1.update((6, 7, 8))
+print(s.symmetric_difference(s1))
+print(s1.issubset(s))
+print(s.issuperset(s1))
+print(len(s), len(s1))
