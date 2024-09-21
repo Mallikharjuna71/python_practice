@@ -30,6 +30,9 @@ l.extend(k)
 print(l)
 l.remove([6, 7, 8])
 print(l)
+print(f"length of list {len(l)}")
+l.append(1)
+print(f"count of 1 is {l.count(1)}")
 
 
 
