@@ -6,5 +6,10 @@ def cp(s):
     r = lambda n: s +" "+ n
     return r
 
+
 m = cp('hi')
 print(m('hello'))
+
+
+
+
